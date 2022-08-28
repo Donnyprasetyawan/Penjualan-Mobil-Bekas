@@ -204,7 +204,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST' && $_SERVER['REQUEST_METHOD'] !== 'GET
 
                     // Creating final query from condition check
 
-                    $sql = "SELECT * FROM tbl_car WHERE title LIKE '%{$_GET['query']}%' AND status=1";
+                    $sql = "SELECT * FROM tbl_car WHERE title LIKE '%{$_GET['query']}%' AND status=1 ";
 
                     // Getting the search result
                     $statement = $pdo->prepare($sql);

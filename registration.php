@@ -95,7 +95,7 @@ if(isset($_POST['form_register_user'])) {
 							</div>
 							<div class="form-group">
 								<label for="">No HP </label>
-								<input autocomplete="off" type="text" class="form-control" name="pembeli_hp" placeholder="Nomor HP">
+								<input autocomplete="off" type="text" class="form-control" name="pembeli_hp" placeholder="Nomor HP" >
 							</div>
 							<div class="form-group">
 								<label for="">Alamat </label>
@@ -137,5 +137,20 @@ if(isset($_POST['form_register_user'])) {
 		</div>
 	</div>
 </div>
+
+
 	
 <?php require_once('footer.php'); ?>
+<script>
+	let latPhoneInput = '' ;
+$("input[name='pembeli_hp']").keyup(function(){
+	if($(this).val().match('^[0-9]*$')){
+		if($(this).val().length < 15){
+			latPhoneInput = $(this).val()
+			$(this).val(latPhoneInput)
+		}else
+		$(this).val(latPhoneInput)
+	}else
+	$(this).val(latPhoneInput)
+});
+</script>
