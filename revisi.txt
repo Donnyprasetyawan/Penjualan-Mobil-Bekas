@@ -1,0 +1,47 @@
+Login Admin
+username : tony1234@gmail.com
+password :
+1234
+
+Login Penjual
+username : seller@gmail.com
+password :
+1234
+
+Login Pembeli
+username : developers@gmail.com
+password :
+1234
+
+============================================
+
+1. Detail search dihilangkan ✔
+2. Ganti bahasa indo
+3. car detail ditaruh disamping atas ✔
+4. pendaftaran error ✔ (KTP BELUM!!)
+==> Upload KTP, nama, no hp
+5. dashboard > mobil terbaru dihilangi ✔
+6. jika belum login > tidak bisa test drive, booking ✔
+7. lokasi dikasih maps
+8. test drive (pembeli) > bisa diupdate > [menghubungi penjual | batal] ✔
+9. booking > hilangkan lama cicil ✔
+10. profile (pembeli&penjual) > upload ktp
+11. penjual > test drive > bisa test drive/tidak ✔
+12. Judul > nama mobil ✔
+13. Kondisi mobil dihilangkan (penjual > tambah mobil) ✔
+14. penjual > sewa tempat > upload bukti saja
+15. navbar penjual > hilangkan harga ✔ [di tbl_menu]
+16. admin kategori&komentar hapus ✔
+16. admin FAQ hapus ✔
+17. admin > pembayaran ✔
+
+Admin > bagian pembeli > verifikasi ✔
+Booking > testdrive > bisa beli ✔
+penjual > tambah mobil > kondisi mobil (hilnkan > defaul) ✔
+======> mobil saya > status ✔
+Pembeli > dashboard > hapus saldo ✔
+
+admin > pengaturan > bagian testimonial hapus saja ✔
+admin>bagian berita>edit>kategori hapus saja ✔
+hapuss saja categori didalam berita ✔
+coment didalam berita hapuss ✔
